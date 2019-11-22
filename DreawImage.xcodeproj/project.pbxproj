@@ -14,6 +14,7 @@
 		18DD8CE62383D35F00DB869B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DD8CE52383D35F00DB869B /* Assets.xcassets */; };
 		18DD8CE92383D35F00DB869B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD8CE72383D35F00DB869B /* LaunchScreen.storyboard */; };
 		18DD8CEC2383D35F00DB869B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD8CEB2383D35F00DB869B /* main.m */; };
+		18DD8CF42383D38700DB869B /* UIImage+DreawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD8CF32383D38700DB869B /* UIImage+DreawImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		18DD8CE82383D35F00DB869B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DD8CEA2383D35F00DB869B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DD8CEB2383D35F00DB869B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DD8CF22383D38700DB869B /* UIImage+DreawImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DreawImage.h"; sourceTree = "<group>"; };
+		18DD8CF32383D38700DB869B /* UIImage+DreawImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DreawImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		18DD8CD82383D35D00DB869B /* DreawImage */ = {
 			isa = PBXGroup;
 			children = (
+				18DD8CF22383D38700DB869B /* UIImage+DreawImage.h */,
+				18DD8CF32383D38700DB869B /* UIImage+DreawImage.m */,
 				18DD8CD92383D35D00DB869B /* AppDelegate.h */,
 				18DD8CDA2383D35D00DB869B /* AppDelegate.m */,
 				18DD8CDC2383D35D00DB869B /* SceneDelegate.h */,
@@ -148,6 +153,7 @@
 			files = (
 				18DD8CE12383D35D00DB869B /* ViewController.m in Sources */,
 				18DD8CDB2383D35D00DB869B /* AppDelegate.m in Sources */,
+				18DD8CF42383D38700DB869B /* UIImage+DreawImage.m in Sources */,
 				18DD8CEC2383D35F00DB869B /* main.m in Sources */,
 				18DD8CDE2383D35D00DB869B /* SceneDelegate.m in Sources */,
 			);
